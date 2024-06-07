@@ -99,56 +99,6 @@ function AddComponet() {
   }
 
 
-//   return (
-//     <div className="App">
-//       {state === "Addpro" ? (
-//         <div className='parent'>
-//           <div className='child'>
-//             <h1> Add Product... </h1>
-
-//             <label>Enter Product Name..</label>
-//             <input type="text" placeholder='Enter Product Name' onChange={(i) => { setName(i.target.value) }} className='form-control' />
-
-//             <label>Enter Product Price..</label>
-//             <input type="text" placeholder='Enter Product Price' onChange={(i) => { setPrice(i.target.value) }} className='form-control' />
-
-//             <label>Enter Product Description..</label>
-//             <input type="text" placeholder='Enter Product Description' onChange={(i) => { setDescription(i.target.value) }} className='form-control' />
-
-//             <label>Enter Product Category..</label>
-//             <input type="text" placeholder='Enter Product Category' onChange={(i) => { setCategory(i.target.value) }} className='form-control' />
-
-//             <label>Enter Product Stock Quantity..</label>
-//             <input type="text" placeholder='Enter Product Quantity' onChange={(i) => { setStock(i.target.value) }} className='form-control' />
-
-//             <label>Select Product Image..</label><br />
-//             <input type="url" placeholder='Enter image url..' onChange={(i) => { setImage(i.target.value) }} className='form-control' />
-
-//             <button onClick={addpro}>Add Product</button>
-//             <button onClick={show}>Show Product</button>
-//           </div>
-//         </div>
-      
-//         <div className="parent1">
-//           <h1>View Product</h1>
-//           <div>
-//             {arr.map((val, index) => (
-//               <div key={index}>
-//                 <h2>{val.name}</h2>
-//                 <p>{val.price}</p>
-//                 <p>{val.description}</p>
-//                 <p>{val.category}</p>
-//                 <p>{val.stock}</p>
-//                 <img src={val.image} alt={val.name} style={{ width: "100px", height: "100px" }} />
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       )}
-//     </div>
-//   );
-// }
-
 export default AddComponet;
 
 
