@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -23,6 +28,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .App-link {
   color: #61dafb;
 }
@@ -35,41 +41,33 @@
     transform: rotate(360deg);
   }
 }
-.App2{
+
+#form{
   /* border: 1px solid; */
-  width: 100%;
+  width: 300px;
   height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: start;
+  padding: 50px 20px;
+  border-radius: 10px;
+  color: white;
+  background: rgb(150, 149, 149);
+  margin: 120px 0;
 }
-.inner{
-  width: 600px;
-  height: auto;
-  /* border: 1px solid; */
+#form button{
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
 }
-.mmyapp{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* border: 1px solid red; */
-  border-radius: 20px;
-  background-color: rgb(201, 199, 199);
+
+#form label{
+  font-weight: 500;
 }
-.apppart_1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.apppart_1  img{
-  height: 100%;
-  width: 80%;
-  border-radius: 30px;
-}
-.apppart_1,.apppart_2{
-  width: 70%;
-  /* border: 1px solid; */
-  height: 250px;
-  text-align: left;
-  padding: 20px 5px;
+ 
+#form input{
+  margin-bottom: 20px;
+  border: none;
+  padding: 6px 30px;
+  border-radius: 5px;
 }

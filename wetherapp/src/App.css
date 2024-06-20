@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-app {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px black;
+  text-align: center;
+  width: 600px;
+  height: 200px;
+  /* border: 1px solid; */
+}
+
+.weather-app h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-box {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.search-box input {
+  padding: 5px 20px;
+  width: calc(100% - 120px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight:700;
+}
+
+.search-box button {
+  padding: 5px 40px;
+  border: none;
+  background: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight:700;
+}
+
+.search-box button:hover {
+  background: #0056b3;
+}
+
+.weather-info {
+  margin-top: 50px;
+  /* border: 1px solid; */
+  width:1200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myinput{
+  /* border: 1px solid; */
+  height: auto;
+  width: 210px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px black;
+}
+
+.weather-info p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.weather-info .temperature {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+.weather-info .description {
+  text-transform: capitalize;
+  font-style: italic;
+  color: #555;
+}
+
+
+
+
