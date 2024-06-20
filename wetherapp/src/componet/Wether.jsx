@@ -32,6 +32,11 @@ function Wehter() {
         }
     }
     // let url = 'https:api.openweathermap.org/data/2.5/weather?q={inputvalue}&appid={83d9354c5a6e630557a9b69c7c66a978}';
+
+    function convertKelvinToCelsius(kelvin) {
+        return Math.floor(kelvin - 273.15)
+      }
+
     return (
         <>
             <center>
@@ -51,7 +56,7 @@ function Wehter() {
                                 <div className="myinput"><h3>City Name</h3><p>{data.name}</p></div>
                                 <div className="myinput"><h3>country</h3><p>{data.sys.country}</p></div>
                                 <div className="myinput"><h3>Wind Speed</h3><p>{data.wind.speed}</p>M/S</div>
-                                <div className="myinput"><h3>Temperature</h3><p>{data.main.temp}</p>°C</div>
+                                <div className="myinput"><h3>Temperature</h3><p>{convertKelvinToCelsius(data.main.temp)}</p>°C</div>
                                 {/* <div className="myinput"><h3>Wether</h3><p>{data.wehter[0].description}</p></div> */}
                             </>
                         )
