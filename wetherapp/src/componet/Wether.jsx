@@ -15,7 +15,7 @@ function Wehter() {
                 icon: "error",
                 title: "Please Enter City...",
                 text: "Something went wrong!",
-              });
+            });
         }
         else {
 
@@ -35,7 +35,7 @@ function Wehter() {
 
     function convertKelvinToCelsius(kelvin) {
         return Math.floor(kelvin - 273.15)
-      }
+    }
 
     return (
         <>
@@ -57,7 +57,6 @@ function Wehter() {
                                 <div className="myinput"><h3>country</h3><p>{data.sys.country}</p></div>
                                 <div className="myinput"><h3>Wind Speed</h3><p>{data.wind.speed}</p>M/S</div>
                                 <div className="myinput"><h3>Temperature</h3><p>{convertKelvinToCelsius(data.main.temp)}</p>°C</div>
-                                {/* <div className="myinput"><h3>Wether</h3><p>{data.wehter[0].description}</p></div> */}
                             </>
                         )
                     }
