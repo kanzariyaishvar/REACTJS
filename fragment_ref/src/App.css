@@ -71,3 +71,17 @@
   padding: 6px 30px;
   border-radius: 5px;
 }
+.select textarea{
+  padding: 10px;
+}
+.title1{
+  position: absolute;
+  top: 95px;
+  left: 330px;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}

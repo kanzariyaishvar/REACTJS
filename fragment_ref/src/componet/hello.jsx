@@ -22,6 +22,9 @@ function Compo() {
     return (
         <React.Fragment>
             <center>
+            
+            <div className="main">
+                <p className="title1">Project 1: Auto-focusing Input Field</p>
             <div id="form">
                 <h1>Fill This Form...</h1><br />
                 <label htmlFor="">Enter Your Name...</label> <br/>
@@ -32,16 +35,19 @@ function Compo() {
                 <input type="text" id="input_3" placeholder="Enter Your Password..." ref={c} /> <br /><br/>
                 <button onClick={handelclick}>Focuse</button>
             </div>
-            </center>
-
-            {/* this is simple fragment tag */}
-
             <>
                 <div className="select">
+                    <p>Project 2: Text Highlighter</p>
                     <textarea name="" id="" rows="10" cols="40" ref={Selecttext} placeholder='Type your text heare....'></textarea><br />
                     <button onClick={Select}>Click to Select Text</button>
                 </div>
             </>
+            </div>
+
+            </center>
+
+            {/* this is simple fragment tag */}
+
 
         </React.Fragment>
     )
