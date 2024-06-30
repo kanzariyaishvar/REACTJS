@@ -35,5 +35,5 @@ const Todoreandering = ({data,hdet,hupd}) => {
     </div>
   )
 }
-
+    
 export default Todoreandering
