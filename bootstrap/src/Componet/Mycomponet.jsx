@@ -53,12 +53,12 @@ function Componete() {
 
             <div id="second_nav">
                 <ul>
-                    <li><a href="">BitMAX</a></li>
-                    <li><a href="">BlockPort</a></li>
-                    <li><a href="">LBANK</a></li>
-                    <li><a href="">KOMODO</a></li>
-                    <li><a href="">SATSHOT</a></li>
-                    <li><a href="">BINANCE</a></li>
+                    <li><a href=""><img src="logo (1).png" alt="" /> Mahindra</a></li>
+                    <li><a href=""><img src="logo (3).png" alt="" /> Suzuki</a></li>
+                    <li><a href=""><img src="new (1).png" alt="" /> BMW</a></li>
+                    <li><a href=""><img src="logo (2).png" alt="" /> mercedes</a></li>
+                    <li><a href=""><img src="new (2).png" alt="" />Jguar</a></li>
+                    <li><a href=""><img src="new (3).png" alt="" />Honda</a></li>
                 </ul>
             </div>
 
@@ -75,8 +75,13 @@ function Componete() {
                         <div className="child_in">
                             <div className="child_in_in">
                                 <img src="car (1).png" alt="" />
-                                <h3>car Name</h3>
-                                <p>Car Rent</p>
+                                <h3>Lamborgono</h3>
+                                <p>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </p>
 
 
                                 <div className="item">
@@ -96,8 +101,11 @@ function Componete() {
                             </div>
                             <div className="child_in_in">
                                 <img src="car (2).png" alt="" />
-                                <h3>car Name</h3>
-                                <p>Car Rent</p>
+                                <h3>Mercedes</h3>
+                                <p><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i></p>
 
                                 <div className="item">
                                     <span><i class="bi bi-person-circle"></i></span>
@@ -116,8 +124,11 @@ function Componete() {
                             </div>
                             <div className="child_in_in">
                                 <img src="car (3).png" alt="" />
-                                <h3>car Name</h3>
-                                <p>Car Rent</p>
+                                <h3>Volvo</h3>
+                                <p><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i></p>
 
                                 <div className="item_1">
                                     <span><i class="bi bi-person-circle"></i></span>
@@ -138,8 +149,11 @@ function Componete() {
                         <div className="child_in">
                             <div className="child_in_in">
                                 <img src="car (4).png" alt="" />
-                                <h3>car Name</h3>
-                                <p>Car Rent</p>
+                                <h3>Lamborgini</h3>
+                                <p><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i></p>
 
                                 <div className="item_1">
                                     <span><i class="bi bi-person-circle"></i></span>
@@ -157,8 +171,11 @@ function Componete() {
                             </div>
                             <div className="child_in_in">
                                 <img src="car (5).png" alt="" />
-                                <h3>car Name</h3>
-                                <p>Car Rent</p>
+                                <h3>Farari</h3>
+                                <p><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i></p>
 
                                 <div className="item_1">
                                     <span><i class="bi bi-person-circle"></i></span>
@@ -176,8 +193,14 @@ function Componete() {
                             </div>
                             <div className="child_in_in">
                                 <img src="car (6).png" alt="" />
-                                <h3>car Name</h3>
-                                <p>Car Rent</p>
+                                <h3>Toyota Supra</h3>
+                                <p>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </p>
 
                                 <div className="item_1">
                                     <span><i class="bi bi-person-circle"></i></span>
@@ -198,6 +221,59 @@ function Componete() {
                     </div>
                 </div>
             </div>
+
+
+            <div id="section_2">
+                <div id="parent_2">
+                    <div id="child_3">
+                        <img src="online.jpg" alt="" />
+                    </div>
+                    <div id="child_4">
+                        <b>Our App</b>
+                        <h1>ONE APP MILLIONS <br /> OF USERS</h1>
+                        <p>Lorem ipsum dolor sit  . Neque culpa rerum et aperiam  maxime. Eligendi,
+                            magnam  aperiam dolores Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit mollitia commodi temporibus quas a adipisci voluptatibus fugit.</p>
+                        <br />
+                            
+                            <button>Lern More</button>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div id="in_foot">
+                <div id="parent_footer">
+                    <div id="F_in">
+                        <h1>Car Decor</h1>
+                        <p>Lorem elit. Culpa, quisquam obcaecati  voluptatem consequuntur </p>
+                        <i class="bi bi-facebook"></i><i class="bi bi-instagram"></i><i class="bi bi-telegram"></i><i class="bi bi-whatsapp"></i>
+
+                    </div>
+                    <div id="F_in">
+                        <h3>Accout</h3>
+                        <li><a href="">Profile</a></li>
+                        <li><a href="">Seting</a></li>
+                        <li><a href="">Biling</a></li>
+                        <li><a href="">Notification</a></li>
+                    </div>
+                    <div id="F_in">
+                        <h3>About</h3>
+                        <li><a href="">Carrear</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Princing</a></li>
+                        <li><a href="">Contact</a></li>
+                    </div>
+                    <div id="F_in">
+                        <h3>Company</h3>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">Help Center</a></li>
+                        <li><a href="">Biling</a></li>
+                        <li><a href="">Support</a></li>
+                    </div>
+                </div>
+                </div>
+            </footer>
+
         </div>
 
     )

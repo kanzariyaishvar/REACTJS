@@ -163,10 +163,13 @@ line-height: 2.5;
     line-height: 2;
     color: blueviolet;
 }
-
+.bi-star-fill{
+    color: rgb(255, 187, 0);
+    padding-left: 5px;
+}
 #second_nav {
     /* border: 1px solid; */
-    height: 10vh;
+    height: 12vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -293,4 +296,109 @@ line-height: 2.5;
     font-weight: 500;
     text-align: center;
     margin-top: 0px;   
+}
+#second_nav img{
+    height: 50px;
+    width: 50px;
+}
+#section_2{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+#parent_2{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#child_3,#child_4{
+    height: 80%;
+    width: 48%;
+    /* border: 1px solid; */
+}
+#child_3 img{
+    height: 100%;
+    width: 100%;
+}
+
+#child_4 {
+    text-align: start;
+    padding: 20px;
+}
+
+#child_4 b{
+    color: red;
+    font-size: 26px;
+    line-height: 2;
+}
+#child_4 h1{
+
+    font-size: 40px;
+    font-weight: 800;
+    color: blue;
+}
+
+#child_4 button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 8px
+}
+footer{
+    background-size: 100% 100%;
+    background-image: url(/public/foot.jpg);
+}
+footer,#in_foot{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid;
+    
+}
+#in_foot h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px red;
+}
+#in_foot {
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parent_footer{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#F_in{
+    height: 80%;
+    width: 25%;
+    text-align: start;
+}
+#F_in p{
+    color: white;
+}
+#F_in h3{
+    color: white;
+}
+#F_in li{
+    list-style: none;
+    color: rgba(255, 0, 0, 0.441);
+}
+
+#F_in i{
+    padding-left: 5px;
+    color: white;
 }
