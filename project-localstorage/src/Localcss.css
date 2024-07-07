@@ -78,6 +78,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(rgb(240, 103, 54),rgba(255, 255, 255, 0.596));
+    border-radius: 35% 65% 87% 13% / 58% 43% 57% 42% ;
+    box-shadow: 8px 8px 12px black;
+    border-right: 15px solid white;
+    border-bottom: 10px solid white;
 }
 
 #childB img{
