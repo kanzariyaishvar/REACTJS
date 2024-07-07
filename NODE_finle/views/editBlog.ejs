@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Add Blog</title>
+    <title>Edit Blog</title>
     <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
     <link rel="stylesheet" href="../assets/css/styles.min.css" />
 </head>
@@ -214,32 +214,33 @@
 
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title fw-semibold mb-4">Add blog ...</h5>
+                            <h5 class="card-title fw-semibold mb-4">Edit blog ...</h5>
                             <div class="card">
                                 <div class="card-body ">
 
                                     <!-- categary form -->
 
-                                    <form method="post" action="/bloginsert" enctype="multipart/form-data">
-                                        <h1>Add Blog</h1>
+                                    <form method="post" action="/updateblog" enctype="multipart/form-data">
+                                        <h1>Edit Blog</h1>
 
                                         <div class="mb-3">
 
+                                            <input type="text" value="<%=all.id%>" class="d-none" name="blogid">
+
                                             <label for="exampleInputPassword1" class="form-label">Blog Title</label>
-                                            <input type="text" name="B_title" class="form-control"
-                                                placeholder="Enter Blog Title...">
+                                            <input type="text" name="B_title" class="form-control"  value="<%=all.B_title%>">
                                                 
                                         </div>
 
                                         <div class="mb-3">
                                             <label for="exampleInputEmail1" class="form-label">Blog About</label>
-                                            <input type="text" class="form-control" name="B_About"
-                                                placeholder="Add Blog About...">
+                                            <input type="text" class="form-control" name="B_About" value="<%=all.B_About%>">
                                         </div>
 
                                         <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Select image</label>
+                                            <label for="exampleInputPassword1" class="form-label ">Select image</label>
                                             <input type="file"  name="image" class="form-control" >
+                                            <img src="<%=all.B_image%>" alt="" height="50px" width="50px" class="rounded">
                                         </div>
 
                                         <br><br>

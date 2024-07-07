@@ -3,7 +3,7 @@ const port = 8989;
 const app = express();
 const Database = require("./config/data");
 const path = require("path");
-const multer=require("multer");
+const multer = require("multer");
 const table = require("./model/schema");
 const product_table = require("./model/product");
 const contact = require("./model/contact");
@@ -14,7 +14,7 @@ const session = require("express-session");
 const product = require("./model/product");
 const main = require("./model/main");
 const sub = require("./model/sub");
-const blog =require("./model/blog");
+const blog = require("./model/blog");
 
 
 const storage = multer.diskStorage({
@@ -65,10 +65,10 @@ app.get("/index", async (req, res) => {
 });
 
 app.get('/productadd', (req, res) => {
-    sub.find({}).populate("mainid").then((alldata)=>{
+    sub.find({}).populate("mainid").then((alldata) => {
         res.render("productadd", {
             info: req.flash("msg"),
-            data:alldata
+            data: alldata
         });
     });
 });
@@ -133,6 +133,9 @@ app.get("/delete", async (req, res) => {
     res.redirect("back")
 })
 
+
+
+
 app.get("/edit", async (req, res) => {
     let id = req.query.id;
     let edi = await product_table.findById(id);
@@ -175,6 +178,7 @@ app.get("/editprofile", async (req, res) => {
     });
 });
 
+
 app.get("/usershop", async (req, res) => {
     let data = await product_table.find({}).then((alldata) => {
         res.render("usershop", {
@@ -207,17 +211,17 @@ app.get("/addtocart", upload, async (req, res) => {
     }
 });
 
-app.get("/viewcat",async (req, res) => {
-    let alldata=await main.find({});
-        res.render("viewcat",{
-            data:alldata
-        });
+app.get("/viewcat", async (req, res) => {
+    let alldata = await main.find({});
+    res.render("viewcat", {
+        data: alldata
+    });
 });
-app.get("/viewSubCat",async (req, res) => {
-    let alldata=await sub.find({}).populate("mainid");
-        res.render("viewSubCat",{
-            data:alldata
-        });
+app.get("/viewSubCat", async (req, res) => {
+    let alldata = await sub.find({}).populate("mainid");
+    res.render("viewSubCat", {
+        data: alldata
+    });
 });
 app.get("/forms", (req, res) => {
     res.render("forms");
@@ -230,9 +234,40 @@ app.get('/sub', async (req, res) => {
     });
 });
 
-app.get('/addblog',async(req,res)=>{
+app.get('/addblog', async (req, res) => {
     res.render("addblog")
 })
+
+app.get("/viewblog", async (req, res) => {
+    let data = await blog.find({}).then((alldata) => {
+        res.render("viewBlog", {
+            data: alldata
+        })
+        console.log(alldata);
+    })
+})
+
+app.get("/deleteBlog", async (req, res) => {
+    let id = req.query.id
+    let helo = await blog.findByIdAndDelete(id);
+    res.redirect("back");
+})
+
+app.get("/editBlog", async (req, res) => {
+    let id = req.query.id;
+    console.log(id);
+    let data = await blog.findById(id);
+    res.render("editBlog", {
+        all: data
+    })
+})
+
+
+
+
+
+
+
 
 
 
@@ -256,7 +291,7 @@ app.post("/bloginsert", upload, async (req, res) => {
         B_About: B_About,
         B_image: B_image
     };
-    console.log(data);
+    // console.log(data);
     try {
         await blog.create(data);
         res.redirect("back");
@@ -267,8 +302,8 @@ app.post("/bloginsert", upload, async (req, res) => {
 });
 
 
-app.post('/sign',upload,async (req, res) => {
-    
+app.post('/sign', upload, async (req, res) => {
+
     const { username, password } = req.body;
     console.log(req.body);
     let data = {
@@ -442,6 +477,21 @@ app.post("/updateprofile", upload, async (req, res) => {
 // Add Blog 
 
 
+app.post("/updateblog",upload,async(req,res)=>{
+    let B_image="";
+    if (req.file) {
+        B_image=req.file.path;
+    }
+
+    let id=req.body.blogid;
+
+    await blog.findByIdAndUpdate(id,{
+        B_title:req.body.B_title,
+        B_About:req.body.B_About,
+        B_image:B_image,
+    });
+    res.redirect("viewBlog")
+});
 
 
 // Add Blog 

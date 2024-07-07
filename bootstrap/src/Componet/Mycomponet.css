@@ -190,7 +190,11 @@ line-height: 2.5;
     font-size: 18px;
     font-weight: 500;
 }
-
+#second_nav img{
+    /* aspect-ratio: 3/2; */
+    /* object-fit: contain; */
+    mix-blend-mode: color-burn;
+}
 #section_1 {
     /* border: 1px solid; */
     width: 100%;

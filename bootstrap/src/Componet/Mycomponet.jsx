@@ -53,7 +53,7 @@ function Componete() {
 
             <div id="second_nav">
                 <ul>
-                    <li><a href=""><img src="logo (1).png" alt="" /> Mahindra</a></li>
+                    <li><a href=""><img src="logo (1).jpg" alt="" /> Mahindra</a></li>
                     <li><a href=""><img src="logo (3).png" alt="" /> Suzuki</a></li>
                     <li><a href=""><img src="new (1).png" alt="" /> BMW</a></li>
                     <li><a href=""><img src="logo (2).png" alt="" /> mercedes</a></li>
