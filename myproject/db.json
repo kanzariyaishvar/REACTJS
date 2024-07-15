@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": "e30f",
+      "username": "user",
+      "email": "jhon@gmail.com",
+      "password": "1212"
+    }
+  ],
+  
+  "product": [
+    {
+      "id": "wa1",
+      "name": "Rolex Submariner",
+      "img": "https://preview.colorlib.com/theme/timezone/assets/img/gallery/popular4.png",
+      "title": "The Rolex Oyster Perpetual Submariner is a line of sports..",
+      "price": "$800"
+    },
+    {
+      "id": "wa2",
+      "name": "Rolex Gmt Master",
+      "img": "https://www.highsnobiety.com/static-assets/dato/1682524322-rolex-smurf.jpg",
+      "title": "The Rolex Oyster Perpetual Submariner is a line of sports..",
+      "price": "$890"
+    },
+    {
+      "id": "wa3",
+      "name": "Rolex Oyster Perpetual",
+      "img": "https://i.pinimg.com/564x/bd/7b/90/bd7b90ae563d2dd85dcbce844e3be499.jpg",
+      "title": "Rolex Oyster Perpetual. In 1926, Rolex introduced the world's first truly waterproof watch called the Oyster.",
+      "price": "$400"
+    },
+    {
+      "id": "wa4",
+      "name": "Rolex Sky-Dweller",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchPg2_LEG9yf056DIO9ONKXUeyYPU2XvAkA&s",
+      "title": "So, the Sky-Dweller was built for modern travel, featuring a complex dial that, however busy it may be..",
+      "price": "$500"
+    },
+    {
+      "id": "wa5",
+      "name": "Cosmograph Daytona",
+      "img": "https://www.wellreplicas.pl/wp-content/uploads/2020/12/replica_rolex__20190926153914.jpg",
+      "title": "The Rolex Oyster Perpetual Submariner is a line of sports..",
+      "price": "$200"
+    },
+    {
+      "id": "wa6",
+      "name": "Rolex Explorer 36",
+      "img": "https://i.pinimg.com/originals/e0/59/9c/e0599c6b83eed8a67ed7bab4f12f1a8a.jpg",
+      "title": "Day-Date. Yet another first for Rolex, the Day-Date was the first watch to showcase not..",
+      "price": "$600"
+    },
+    {
+      "id": "wa7",
+      "name": "Rolex Air-King",
+      "img": "https://images-cdn.ubuy.co.in/64ef74b30341cf2a1e33a373-rolex-submariner-date-116613lb.jpg",
+      "title": "Rolex 1908. If you've made it this far in this article, you may have noticed a pattern ..",
+      "price": "$1100"
+    },
+    {
+      "id": "wa8",
+      "name": "Rolex Explorer",
+      "img": "https://cdn11.bigcommerce.com/s-eie9lsi1uc/images/stencil/1280x1280/products/4805/18854/rolex-oyster-perpetual-36-automatic-chronometer-turquoise-blue-dial-watch-126000tqblso__81192.1680349311.jpg?c=1",
+      "title": "Rolex Oyster Perpetual Submariner is a line of sports..",
+      "price": "$80"
+    },
+    {
+      "id": "wa9",
+      "name": "Rolex Submariner 116610lv",
+      "img": "https://m.media-amazon.com/images/I/61aEtLk5QzL._AC_UY1000_.jpg",
+      "title": "The green Rolex Submariner with Green Cerachrom (ceramic)..",
+      "price": "$1200"
+    },
+    {
+      "id": "wa10",
+      "name": "Rolex 126711CHNR GMT-Master",
+      "img": "https://wishlistpk.com/images/rolex-skeleton-automatic-blue-leather1665491728.webp",
+      "title": "Rolex Root Beer. A Rolex Root Beer is any GMT-Master watch with brown in its bezel. Vintage..",
+      "price": "$2150"
+    },
+    {
+      "id": "wa11",
+      "name": "Rolex 126711CHNR",
+      "img": "https://images-cdn.ubuy.co.in/63aeb015790dc75b186375c3-rolex-datejust-41-blue-dial-automatic.jpg",
+      "title": "Rolex Root Beer. A Rolex Root Beer is any GMT-Master watch with brown in its bezel. Vintage..",
+      "price": "$1700"
+    },
+    {
+      "id": "wa12",
+      "name": "rolex-datejust",
+      "img": "https://cdn.swisswatchexpo.com/productphotos/29/1935/rolex-datejust-mens-ss-18k-gold-blue-roman-watch-16203-10335_b_md.jpg",
+      "title": "Rolex Root Beer. A Rolex Root Beer is any GMT-Master watch with brown in its bezel. Vintage..",
+      "price": "$1800"
+    }
+  ]
+}
