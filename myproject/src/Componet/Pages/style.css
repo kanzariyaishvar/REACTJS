@@ -49,7 +49,11 @@ ul {
     height: 100% !important;
     width: 100%;
     justify-content: space-evenly;
-    /* border: 1px solid red; */
+    /* border: 1px solid rzed; */
+}
+
+select {
+    background-color: whitesmoke;
 }
 
 nav,
@@ -57,6 +61,7 @@ ul .Link {
     color: black;
     font-size: 18px;
     font-weight: 500;
+    border: none;
 }
 
 #Hicon {
@@ -258,6 +263,30 @@ ul .Link {
     justify-content: center;
 }
 
+#HomeSection1 input {
+    border: none !important;
+    padding: 8px 15px;
+    background-color: rgb(79, 78, 78);
+    color: white;
+}
+#HomeSection1 ::placeholder{
+    color: white;
+}
+#serch,#drop{
+    border: 1px solid;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(79, 78, 78);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#drop select{
+    background-color: rgb(79, 78, 78);
+    color: white;
+    border: none;
+}
 .HomeChild {
     height: 80%;
     width: 80%;
@@ -625,3 +654,132 @@ ul .Link {
     font-size: 16px;
     color: rgb(98, 97, 97);
   }
+
+  #filter{
+    /* height:100px; */
+    width: 600px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(79, 78, 78);
+    color: white;
+    border-radius: 10px;
+  }
+
+
+  /* import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
+function Home() {
+  const [products, setProducts] = useState([]);
+  const [filter, setFilter] = useState({
+    men: false,
+    women: false,
+    jewelry: false,
+    electronics: false
+  });
+  const [sortOption, setSortOption] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
+
+  useEffect(() => {
+    fetch(`https://fakestoreapi.com/products`)
+      .then((res) => res.json())
+      .then((data) => {
+        setProducts(data);
+      });
+  }, []);
+
+  const handleFilterChange = (e) => {
+    setFilter({
+      ...filter,
+      [e.target.name]: e.target.checked
+    });
+  };
+
+  let filteredData = products
+
+     if(filter.men || filter.women || filter.jewelry || filter.electronics){
+      filteredData = filteredData.filter((el)=>{
+      
+        if(filter.men && el.category == "men's clothing") {
+         return true;
+        }
+        if(filter.women && el.category == "women's clothing" ){
+         return true;
+        }
+        if(filter.jewelry && el.category == "jewelery" ){
+         return true;
+        }
+        if(filter.electronics && el.category == "electronics" ){
+         return true;
+        }
+ 
+      })
+
+     }
+
+
+     if(sortOption){
+       filteredData = filteredData.sort((a,b)=>{
+           if(sortOption == "asc"){
+              return a.price - b.price;
+           }else if(sortOption == "desc") {
+               return b.price - a.price;
+           }else if(sortOption == "atoz"){
+               return b.title.localeCompare(a.title)
+           }
+        })
+     }
+   
+     if(searchTerm){
+      filteredData = filteredData.filter((el)=>{
+           return el.title.toLowerCase().includes(searchTerm.toLowerCase())
+      })
+
+
+     }
+
+    
+
+
+   
+  
+
+
+
+  return (
+    <>
+      <div>
+        <input type="checkbox" name="men" onChange={handleFilterChange} /> Men
+        <input type="checkbox" name="women" onChange={handleFilterChange} /> Women
+        <input type="checkbox" name="jewelry" onChange={handleFilterChange} /> Jewelry
+        <input type="checkbox" name="electronics" onChange={handleFilterChange} /> Electronics
+      </div>
+      <div>
+          <select name="" id="" onChange={(e)=>setSortOption(e.target.value)}>
+              <option value="">Sort</option>
+              <option value="asc">Low to High</option>
+              <option value="desc">High to Low</option>
+              <option value="atoz">A to Z</option>
+          </select>
+      </div>
+      <div>
+         <input type="text" onChange={(e)=>setSearchTerm(e.target.value)} />
+      </div>
+      <div>
+        {filteredData.map((product) => (
+          <div key={product.id}>
+            <Link to={`/${product.id}`}>
+              <h1>{product.title}</h1>
+            </Link>
+            <img src={product.image} alt="" width="150px" height="150px" />
+            <p>Price: ${product.price}</p>
+          </div>
+        ))}
+      </div>
+    </>
+  );
+}
+
+export default Home; */
