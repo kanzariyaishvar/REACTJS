@@ -85,7 +85,7 @@ function Login() {
                 placeholder='Enter Password...'
                 onChange={handleChange}
               />
-              <button type='submit' className='btn sign'>Sign Up</button>
+              <button type='submit' className='btn sign'>LOGIN</button>
             </form>
           </div>
         </div>

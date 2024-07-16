@@ -503,24 +503,125 @@ ul .Link {
 }
 
 /* /////     //////   /////   product //////  ///// //////  /////  */
-#MainProduct{
-    height: auto;
+.myproduct {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+    height: auto !important;
+  }
+  
+  .productChild {
+    flex: 1 1 calc(22.333% - 20px);
+    box-sizing: border-box;
+    margin: 10px; 
+    /* border: 1px solid #ddd;  */
+    padding: 10px; 
+    text-align: center;
+  }
+  #Profooter{
+    background-color: aquamarine;
+    height: 500px;
     width: 100%;
-    border: 1px solid;
+
+  }
+
+
+
+
+
+
+  .product-detail {
+    width: 800px;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    /* background-color: #c02525; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: start;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.myproduct{
+  }
+  .product-detail-child{
+    height: 100%;
+    width: 48%;
+  }
+  .product-img {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  .product-title {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .product-price,
+  .product-model,
+  .product-description {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .product-price {
+    color: #e60023;
+  }
+  
+  .product-description {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+
+
+
+  /* About */
+
+  #about{
     height: auto;
-    background-color: lightcyan;
     width: 100%;
-    display: flex;
-    border: 10px solid yellowgreen;
-    flex-wrap: wrap;
+    /* border: 1px solid; */
+  }
+  #aboutParent{
+    height: auto;
+    width: 70%;
+    /* border: 1px solid; */
+    display: flex;align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding-left: 10%;
+
+  }
+  .aboutChild2{
+    height: 40vh;
+    width: 60%;
+    /* border: 1px solid; */
+    text-align: start;
+    padding: 20px;
 }
-.productChild{
-    background-color: red;
-    border: 2px solid black;
+.aboutChild1{
+    height: 40vh;
     width: 30%;
-}
+    /* border: 1px solid; */
+  }
+  .aboutChild1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .aboutChild2 i{
+    color: red;
+    font-size: 30px;
+    padding-right: 20px;
+  }
+  .aboutChild2 p{
+    font-size: 16px;
+    color: rgb(98, 97, 97);
+  }

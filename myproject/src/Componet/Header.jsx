@@ -12,7 +12,6 @@ function Header() {
                     <Link  to="/Home" className='Link'>Home</Link>
                     <Link  to="/Shop" className='Link'>Product</Link>
                     <Link  to="/About" className='Link'>About</Link>
-                    <Link  to="/Blog" className='Link'>Blog</Link>
                     <Link  to="/Contact" className='Link'>Contact</Link>
                 </ul>
             </nav>

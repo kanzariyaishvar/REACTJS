@@ -5,9 +5,14 @@
       "username": "user",
       "email": "jhon@gmail.com",
       "password": "1212"
+    },
+    {
+      "id": "875f",
+      "username": "ishan",
+      "email": "ishan@gmail.com",
+      "password": "is123"
     }
   ],
-  
   "product": [
     {
       "id": "wa1",
