@@ -18,7 +18,7 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    <NavLink to="/Home" className='Link' activeClassName='active'>Home</NavLink>
+                    <NavLink to="/" className='Link' activeClassName='active'>Home</NavLink>
                     <NavLink to="/Shop" className='Link' activeClassName='active'>Product</NavLink>
                     <select name="pages" id="pages" className='Link' onChange={handleSelectChange}>
                         <option value="">Pages</option>
