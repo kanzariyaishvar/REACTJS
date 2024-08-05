@@ -17,7 +17,8 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 
 const PrivateRoute = ({ children }) => {
-    const isLogin = localStorage.getItem("isLogin") === "true";
+    const isLogin = localStorage.getItem("islogin");
+    console.log(isLogin)
     return isLogin ? children : <Navigate to="/login" />;
 };
 

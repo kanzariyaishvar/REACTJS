@@ -31,7 +31,7 @@ let navigate=useNavigate()
     .then((res) => res.json())
     .then((res) => {
       console.log(res);
-      navigate('Login');
+      navigate('/Login');
     })
     .catch((error) => {
       console.error('Error:', error);

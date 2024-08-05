@@ -1,16 +1,28 @@
 {
   "users": [
     {
-      "id": "e30f",
-      "username": "user",
-      "email": "jhon@gmail.com",
-      "password": "1212"
-    },
-    {
       "id": "875f",
       "username": "ishan",
       "email": "ishan@gmail.com",
       "password": "is123"
+    },
+    {
+      "id": "31c0",
+      "username": "hello",
+      "email": "hello@gmail.com",
+      "password": "hello789"
+    },
+    {
+      "id": "8370",
+      "username": "hello",
+      "email": "hello@gmail.com",
+      "password": "hello456"
+    },
+    {
+      "id": "ade3",
+      "username": "hello",
+      "email": "hello@gmail.com",
+      "password": "hello789"
     }
   ],
   "product": [
@@ -20,7 +32,7 @@
       "img": "https://preview.colorlib.com/theme/timezone/assets/img/gallery/popular4.png",
       "title": "The Rolex Oyster Perpetual Submariner is a line of sports..",
       "price": "$800",
-      "catagory":"Rolex"
+      "catagory": "Rolex"
     },
     {
       "id": "wa2",
@@ -28,7 +40,7 @@
       "img": "https://www.highsnobiety.com/static-assets/dato/1682524322-rolex-smurf.jpg",
       "title": "The Rolex Oyster Perpetual Submariner is a line of sports..",
       "price": "$890",
-      "catagory":"Rolex"
+      "catagory": "Rolex"
     },
     {
       "id": "wa3",
@@ -36,7 +48,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpu0CYbYIvv08qHPkAQeCo0D-HvnSWAO6IyA&s",
       "title": "Apple Oyster Perpetual. In 1926, Apple introduced the world's first truly waterproof watch called the Oyster.",
       "price": "$400",
-      "catagory":"Apple"
+      "catagory": "Apple"
     },
     {
       "id": "wa4",
@@ -44,7 +56,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchPg2_LEG9yf056DIO9ONKXUeyYPU2XvAkA&s",
       "title": "So, the Sky-Dweller was built for modern travel, featuring a complex dial that, however busy it may be..",
       "price": "$500",
-      "catagory":"Rolex"
+      "catagory": "Rolex"
     },
     {
       "id": "wa5",
@@ -52,7 +64,7 @@
       "img": "https://www.wellreplicas.pl/wp-content/uploads/2020/12/replica_rolex__20190926153914.jpg",
       "title": "The Rolex Oyster Perpetual Submariner is a line of sports..",
       "price": "$200",
-      "catagory":"Rolex"
+      "catagory": "Rolex"
     },
     {
       "id": "wa6",
@@ -60,7 +72,7 @@
       "img": "https://i.pinimg.com/originals/e0/59/9c/e0599c6b83eed8a67ed7bab4f12f1a8a.jpg",
       "title": "Day-Date. Yet another first for Rolex, the Day-Date was the first watch to showcase not..",
       "price": "$600",
-      "catagory":"Rolex"
+      "catagory": "Rolex"
     },
     {
       "id": "wa7",
@@ -68,7 +80,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKK64cBooJHnP-ZffTSjAKnBH9tMvVBAZt0w&s",
       "title": "Boat 1908. If you've made it this far in this article, you may have noticed a pattern ..",
       "price": "$1100",
-      "catagory":"Boat"
+      "catagory": "Boat"
     },
     {
       "id": "wa8",
@@ -76,7 +88,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzR_WZRZH342kIDBt2tb_TRVho6IElPy0LBQ&s",
       "title": "Boat Oyster Perpetual Submariner is a line of sports..",
       "price": "$80",
-      "catagory":"Boat"
+      "catagory": "Boat"
     },
     {
       "id": "wa9",
@@ -84,7 +96,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrG8x7VnZ8BiBP08dEh5YxQJR8K0bLmojgmQ&s",
       "title": "The green Rolex Submariner with Green Cerachrom (ceramic)..",
       "price": "$1200",
-      "catagory":"Noise"
+      "catagory": "Noise"
     },
     {
       "id": "wa10",
@@ -92,7 +104,7 @@
       "img": "https://wishlistpk.com/images/rolex-skeleton-automatic-blue-leather1665491728.webp",
       "title": "Rolex Root Beer. A Rolex Root Beer is any GMT-Master watch with brown in its bezel. Vintage..",
       "price": "$2150",
-      "catagory":"Rolex"
+      "catagory": "Rolex"
     },
     {
       "id": "wa11",
@@ -100,7 +112,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2dB6Be2tdlbSoHuMLyE84gxs2qv5LKFlC2Q&s",
       "title": "Noise Root Beer. A Rolex Root Beer is any GMT-Master watch with brown in its bezel. Vintage..",
       "price": "$1700",
-      "catagory":"Noise"
+      "catagory": "Noise"
     },
     {
       "id": "wa12",
@@ -108,7 +120,7 @@
       "img": "https://cdn.swisswatchexpo.com/productphotos/29/1935/rolex-datejust-mens-ss-18k-gold-blue-roman-watch-16203-10335_b_md.jpg",
       "title": "Rolex Root Beer. A Rolex Root Beer is any GMT-Master watch with brown in its bezel. Vintage..",
       "price": "$1800",
-      "catagory":"Rolex"
+      "catagory": "Rolex"
     }
   ]
 }
