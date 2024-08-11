@@ -19,7 +19,6 @@ function MainRoutes() {
                 <Route path="/login" element={<Login />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/shop' element={<PrivateRoute><Shop /></PrivateRoute>} />
-                {/* <Route path='/shop' onCli element={<Shop />} /> */}
                 <Route path='/Contact' element={<Contact/>} />
                 <Route path='/product/:id' element={<ProductDetail/>} />
             </Routes>
