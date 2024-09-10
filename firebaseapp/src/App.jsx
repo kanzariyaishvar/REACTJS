@@ -92,3 +92,27 @@ function App() {
 }
 
 export default App
+
+
+
+
+
+// const handleSubmit = (e) => {
+//   e.preventDefault();
+//   console.log('Form Data:', formState);
+//   console.log('Talent Data:', talents);
+
+//   setFormState({
+//     clientName: '',
+//     poType: '',
+//     poNumber: '',
+//     receivedOn: '',
+//     receivedFromName: '',
+//     receivedFromEmail: '',
+//     poStartDate: new Date(),
+//     poEndDate: new Date(),
+//     budget: '',
+//     currency: 'USD',
+//   });
+//   setTalents([{ ...initialTalent, id: 1 }]);
+// };

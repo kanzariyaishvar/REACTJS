@@ -10,9 +10,9 @@ function Aside() {
                 <h2>Modernize</h2>
             </div>
                 <nav>
-                <Link className='link' to="/"><i class="bi bi-house-door-fill"></i> DashBord</Link> <br />
-                <Link className='link' to="/AddProduct"> <i class="bi bi-box2-fill"></i> Add Product</Link> <br />
-                <Link className='link' to="/ViewProduct"><i class="bi bi-eye-fill"></i> ViewProduct</Link> <br />
+                <Link className='link' to="/"><i class="bi bi-house-door-fill"></i> Purchess Order</Link> <br />
+                <Link className='link' to="/Talentdetail"> <i class="bi bi-box2-fill"></i> TalentDetail</Link> <br />
+                <Link className='link' to="/Viewdata"><i class="bi bi-eye-fill"></i> ViewData</Link> <br />
                 </nav>
         </aside>
     </>
