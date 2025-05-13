@@ -1,0 +1,320 @@
+/* ========== Base styles (mobile first) ========== */
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+  height: 100vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.carousel-caption {
+  height: 300px;
+  width: auto;
+}
+
+.carousel-caption h5 {
+  font-size: 40px;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.carousel-caption p {
+  font-size: 30px;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.carousel-caption .circle h3 {
+  font-size: 1rem;
+}
+
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.invitation2{
+  height: 600px;
+  width: 100%;
+  padding: 0 40px;
+}
+.invitation2 img{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.invitation1 {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 250px 0;
+  position: relative;
+}
+
+.invitation1 i {
+  font-size: 400px;
+  color: rgb(41, 114, 249);
+}
+
+.move {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 120px;
+}
+
+.move h5, .move p {
+  font-family: "Lobster", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left h1 {
+  font-size: 40px;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: red
+}
+
+.time-box span {
+  font-size: 40px;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  border-bottom: 1px solid red;
+}
+
+.left p {
+  font-family: "Lobster", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 25px;
+}
+.Gust_invitation{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Gust_invitation h2{
+      font-family: "Lobster", sans-serif;
+      font-size: 60px;
+      color: red;
+      border-bottom: 1px solid;
+}
+.Gust_invitation span{
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  color: red;
+  border-bottom: 1px solid red;
+}
+.Gust_invitation p{
+font-family: "Lobster", sans-serif;
+font-size: 20px;  
+color: red;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.map{
+  height: 300px;
+  padding: 0 40px;
+}
+
+.map iframe{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.invguest{
+  text-align: center;
+  padding: 50px 0;
+}
+.invguest h3{
+  font-family: "Pacifico", cursive;  font-optical-sizing: auto;
+}
+.invguest p{
+  font-family: "Pacifico", cursive;
+}
+.invguest img{
+  height: 400px;
+  width: 70%;
+}
+.content{
+  text-align:justify;
+  padding: 0 40px !important;
+  margin-top: 20px;
+}
+/* iventcard */
+.event-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  padding-left: 16%;
+}
+
+.event-content {
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 20px 20px 20px 80px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-width: 400px;
+}
+
+.event-image {
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.event-image img {
+  width: 70px;
+  height: auto;
+}
+
+.event-details {
+  flex-grow: 1;
+}
+
+.event-details h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  margin: 0 0 5px;
+}
+
+.event-details .time {
+  color: #2196F3;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.event-date {
+  background: #2196F3;
+  color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-date .day {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.event-date .month {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.custom-footer {
+  margin-top: 20px;
+  background-color: #111;
+  color: #888;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.custom-footer .heart {
+  color: #888;
+  margin: 0 5px;
+}
+
+.custom-footer a {
+  color: #1E90FF;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}
+
+/* iventcard */
+
+/* ========== Desktop styles (responsive) ========== */
+@media (min-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption .circle h3 {
+    font-size: 1.4rem;
+  }
+
+  .invitation {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .invitation .card {
+    flex: 1;
+    height: 200px;
+  }
+
+  .countdown-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .left,
+  .right {
+    flex: 1;
+  }
+
+  .timer {
+    justify-content: flex-end;
+  }
+}
